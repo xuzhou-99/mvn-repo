@@ -29,19 +29,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <github.global.server>githubRepo</github.global.server>
+        <github.global.server>github</github.global.server>
     </properties>
 
-<!--    <distributionManagement>-->
-<!--        <snapshotRepository>-->
-<!--            <id>ossrh</id>-->
-<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
-<!--        </snapshotRepository>-->
-<!--        <repository>-->
-<!--            <id>ossrh</id>-->
-<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+    <!--    <distributionManagement>-->
+    <!--        <snapshotRepository>-->
+    <!--            <id>ossrh</id>-->
+    <!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+    <!--        </snapshotRepository>-->
+    <!--        <repository>-->
+    <!--            <id>ossrh</id>-->
+    <!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+    <!--        </repository>-->
+    <!--    </distributionManagement>-->
 
     <licenses>
         <license>
@@ -59,17 +59,17 @@
         </developer>
     </developers>
 
-<!--    <scm>-->
-<!--        <connection>scm:git:git://github.com/xuzhou-99/audit.git</connection>-->
-<!--        <developerConnection>scm:git:ssh://github.com:xuzhou-99/audit.git</developerConnection>-->
-<!--        <url>https://github.com/xuzhou-99/audit/tree/main</url>-->
-<!--    </scm>-->
+    <!--    <scm>-->
+    <!--        <connection>scm:git:git://github.com/xuzhou-99/audit.git</connection>-->
+    <!--        <developerConnection>scm:git:ssh://github.com:xuzhou-99/audit.git</developerConnection>-->
+    <!--        <url>https://github.com/xuzhou-99/audit/tree/main</url>-->
+    <!--    </scm>-->
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
-            <version>2.1.6.RELEASE</version>
+            <version>2.7.3</version>
         </dependency>
 
         <dependency>
